@@ -31,5 +31,4 @@ if cachedConsent == 'y':
     os.system("clear")
 
 print('Starting GPT Terminal')
-os.system('alias python=python3')
 os.system("python3 startup.py")
