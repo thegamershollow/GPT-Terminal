@@ -23,3 +23,4 @@ if question == 'exit':
 answer = response['choices'][0]['message']['content']
 
 print('ChatGPT:\n',answer)
+os.system("python3 startup.py")

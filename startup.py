@@ -16,11 +16,11 @@ if gptSelection == '1':
     os.system("clear")
     os.system("python3 gpt.py")
 
-if gptSelection == '2':
+if gptSelection == '3':
     os.system("clear")
     os.system("python3 options.py")
 
-if gptSelection == '3':
+if gptSelection == '2':
     os.system("clear")
     os.system("python3 jailbreak.py")
 

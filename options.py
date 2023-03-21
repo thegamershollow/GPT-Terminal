@@ -10,12 +10,15 @@ if options == '1':
     file = open("API-Key.env","w")
     file.write(inputedKey)
     file.close()
+    os.system("python3 startup.py")
 if options == '2':
     os.remove("API-Key.env")
+    os.system("python3 startup.py")
 if options == '3':
     file = open("API-Key.env","r")
     key = file.read()
     print('API Key: ',key)
     file.close()
+    os.system('python3 startup.py')
 if options == '4':
     os.system("python3 startup.py")
