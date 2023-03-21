@@ -23,7 +23,7 @@ openai.api_key = api
 
 #runs commands to install the required python modules IF consent was previously provided
 cachedConsent = open('.consent.txt', 'r')
-if cachedConsent == consentYes:
+if cachedConsent == 'y':
     CurrentOS = platform.system()
     os.system("bash")
     os.system("pip install --upgrade pip")
@@ -31,4 +31,5 @@ if cachedConsent == consentYes:
     os.system("clear")
 
 print('Starting GPT Terminal')
+os.system('alias python=python3')
 os.system("python startup.py")
