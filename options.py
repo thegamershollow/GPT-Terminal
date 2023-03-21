@@ -18,5 +18,6 @@ if options == '3':
     print('API Key: ',key)
     file.close()
 if options == '4':
+    os.system('bash')
     os.system('alias python=python3')
-    os.system("python startup.py")
+    os.system("python3 startup.py")

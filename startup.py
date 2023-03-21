@@ -14,18 +14,21 @@ gptSelection = input("Select an option from below by typing the number\n1. Open 
 
 if gptSelection == '1':
     os.system("clear")
+    os.system('bash')
     os.system('alias python=python3')
-    os.system("python gpt.py")
+    os.system("python3 gpt.py")
 
 if gptSelection == '2':
     os.system("clear")
+    os.system('bash')
     os.system('alias python=python3')
-    os.system("python options.py")
+    os.system("python3 options.py")
 
 if gptSelection == '3':
     os.system("clear")
+    os.system('bash')
     os.system('alias python=python3')
-    os.system("python jailbreak.py")
+    os.system("python3 jailbreak.py")
 
 if gptSelection == '4':
     os.system('alias python=python3')
